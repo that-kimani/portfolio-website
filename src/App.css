@@ -1,0 +1,68 @@
+/* ===== Global Styles ===== */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+/* ===== CTA Button (Shared) ===== */
+.cta-button {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.cta-button.primary {
+  background: var(--text-h);
+  color: var(--bg);
+}
+
+.cta-button.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.cta-button.secondary {
+  background: transparent;
+  color: var(--text-h);
+  border: 1px solid var(--border);
+}
+
+.cta-button.secondary:hover {
+  border-color: var(--text-h);
+}
+
+.cta-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ===== Section Title (Shared) ===== */
+.section-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 40px;
+  line-height: 1.4;
+  color: var(--text-h);
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 24px;
+    margin: 0 0 32px;
+  }
+}
