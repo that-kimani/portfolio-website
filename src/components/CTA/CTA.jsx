@@ -6,7 +6,7 @@ import handshake_icon from '../../assets/icons/handshake.png'
 const downloadCV = async () => {
 
   // Replace with actual URL to CV later.
-  const url = "https://raw.githubusercontent.com/username/repo/main/cv.pdf";
+  const url = "https://raw.githubusercontent.com/that-kimani/portfolio-website/main/Wayne_Kimani_CV.pdf";
   const blob = await fetch(url).then(res => res.blob());
   const link = Object.assign(document.createElement("a"), {
     href: URL.createObjectURL(blob),
