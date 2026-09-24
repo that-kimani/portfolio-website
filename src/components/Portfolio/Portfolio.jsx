@@ -7,7 +7,7 @@ export default function Portfolio() {
   const portfolioItems = [
     {
       id: 1,
-      title: 'I built a Retail High Frequency Trading Kit',
+      title: 'I built a High Frequency Trading Kit for Retailers ',
       category: 'Finance / Software Development',
       image: candle_chart,
       url: 'https://github.com/that-kimani/retail-hft-kit'
