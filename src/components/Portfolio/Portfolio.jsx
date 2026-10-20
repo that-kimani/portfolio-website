@@ -2,15 +2,16 @@ import './Portfolio.css'
 import transactions_to_forecasts from '../../assets/project_covers/transactions_to_forecasts.png'
 import ai_agents_and_hr from '../../assets/project_covers/ai_agents_and_hr.jpg'
 import candle_chart from '../../assets/project_covers/candle_chart.jpg'
+import kpc_tank from '../../assets/project_covers/kpc_tank.jpg'
 
 export default function Portfolio() {
   const portfolioItems = [
     {
       id: 1,
-      title: 'I built a High Frequency Trading Kit for Retailers ',
-      category: 'Finance / Software Development',
-      image: candle_chart,
-      url: 'https://github.com/that-kimani/retail-hft-kit'
+      title: 'KPC IPO Case Study: Overpriced?',
+      category: 'Financial Analysis / Investing',
+      image: kpc_tank,
+      url: 'https://medium.com/@that.kimani/the-kpc-ipo-was-it-all-hype-1cc409215204'
     },
     {
       id: 2,
@@ -21,6 +22,13 @@ export default function Portfolio() {
     },
     {
       id: 3,
+      title: 'I built a High Frequency Trading Kit for Retailers ',
+      category: 'Finance / Software Development',
+      image: candle_chart,
+      url: 'https://github.com/that-kimani/retail-hft-kit'
+    },
+    {
+      id: 4,
       title: 'Can AI streamline HR processes?',
       category: 'UI/UX Design',
       image: ai_agents_and_hr,
